@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestWebAppMin", "TestWebApp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebAppMin.DataAccess", "..\TestWebAppMin.DataAccess\TestWebAppMin.DataAccess.csproj", "{0F7C0DE3-83E3-418B-8EF3-7B609106D633}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebAppMin.Services", "..\TestWebAppMin.Services\TestWebAppMin.Services.csproj", "{FC3865B7-4384-430A-8556-24B666ED1453}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebAppMin.Common", "..\TestWebAppMin.Common\TestWebAppMin.Common.csproj", "{4E8A8B83-1002-400A-A93D-C5270A021CA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,14 @@ Global
 		{0F7C0DE3-83E3-418B-8EF3-7B609106D633}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F7C0DE3-83E3-418B-8EF3-7B609106D633}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F7C0DE3-83E3-418B-8EF3-7B609106D633}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC3865B7-4384-430A-8556-24B666ED1453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC3865B7-4384-430A-8556-24B666ED1453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC3865B7-4384-430A-8556-24B666ED1453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC3865B7-4384-430A-8556-24B666ED1453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E8A8B83-1002-400A-A93D-C5270A021CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E8A8B83-1002-400A-A93D-C5270A021CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E8A8B83-1002-400A-A93D-C5270A021CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E8A8B83-1002-400A-A93D-C5270A021CA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,5 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{B89622A5-BDD2-4E7C-AAB5-B9BDC67709FA} = {9B0DE92F-4C26-43AE-B775-DC5D7B03BBA7}
 		{0F7C0DE3-83E3-418B-8EF3-7B609106D633} = {9B0DE92F-4C26-43AE-B775-DC5D7B03BBA7}
+		{FC3865B7-4384-430A-8556-24B666ED1453} = {9B0DE92F-4C26-43AE-B775-DC5D7B03BBA7}
+		{4E8A8B83-1002-400A-A93D-C5270A021CA7} = {9B0DE92F-4C26-43AE-B775-DC5D7B03BBA7}
 	EndGlobalSection
 EndGlobal
