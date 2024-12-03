@@ -4,7 +4,7 @@ namespace TestWebAppMin.Services
 {
     public class MockCustomerProvider : ICustomerProvider
     {
-        public Task<IReadOnlyList<CustomerDto>> GetCustomersByBirthday(DateOnly birthday)
+        public Task<IReadOnlyList<CustomerDto>> GetCustomersByBirthday(BirthdayDto birthday)
         {
             IReadOnlyList<CustomerDto> customers =
             [
@@ -34,7 +34,7 @@ namespace TestWebAppMin.Services
                         Id = Guid.NewGuid(),
                         FullName = new FullNameDto { FirstName = "John", LastName = "Doe" }
                     },
-                    PurchaseDate = new DateOnly(2023, 12, 1)
+                    PurchaseDate = new DateTime(2023, 12, 1)
                 },
                 new()
                 {
@@ -43,7 +43,7 @@ namespace TestWebAppMin.Services
                         Id = Guid.NewGuid(),
                         FullName = new FullNameDto { FirstName = "Jane", LastName = "Doe" }
                     },
-                    PurchaseDate = new DateOnly(2021, 10, 10)
+                    PurchaseDate = new DateTime(2021, 10, 10)
                 }
             ];
 

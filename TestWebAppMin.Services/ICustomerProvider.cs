@@ -6,6 +6,6 @@ namespace TestWebAppMin.Services
     {
         Task<IReadOnlyList<PurchasesPerCategoryDto>> GetCategoriesPurchasesCount(Guid customerId);
         Task<IReadOnlyList<CustomerLastPurchaseDto>> GetCustomerLastPurchases(int daysCount);
-        Task<IReadOnlyList<CustomerDto>> GetCustomersByBirthday(DateOnly birthday);
+        Task<IReadOnlyList<CustomerDto>> GetCustomersByBirthday(BirthdayDto birthday);
     }
 }

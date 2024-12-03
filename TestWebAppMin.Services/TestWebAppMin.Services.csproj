@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TestWebAppMin.DataAccess\TestWebAppMin.DataAccess.csproj" />
+  </ItemGroup>
+
 </Project>

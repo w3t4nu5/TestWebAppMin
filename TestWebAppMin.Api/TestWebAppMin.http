@@ -1,6 +1,6 @@
 @TestWebAppMin_HostAddress = http://localhost:5024
 
-GET {{TestWebAppMin_HostAddress}}/weatherforecast/
+GET {{TestWebAppMin_HostAddress}}/api/customers/preferredCategories?customerId=11067CB8-3D6A-45E1-A57B-196F39F11A88
 Accept: application/json
 
 ###

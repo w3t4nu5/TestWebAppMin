@@ -3,6 +3,6 @@
     public record CustomerLastPurchaseDto
     {
         public required CustomerDto Customer { get; init; }
-        public DateOnly? PurchaseDate { get; init; }
+        public DateTime PurchaseDate { get; init; }
     }
 }
