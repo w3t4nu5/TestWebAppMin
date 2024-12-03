@@ -26,6 +26,7 @@ namespace TestWebAppMin.DataAccess
 
             //must be refactored
             List<CustomerLastPurchaseModel> result = await context.Customers.AsNoTracking()
+                    .Include(c => c.Purchases)
                     .Where(c => c.Purchases.Any(p => p.PurchaseDate >= DateTime.Now.AddDays(-daysCount)))
                     .Select(c => new CustomerLastPurchaseModel
                     {
